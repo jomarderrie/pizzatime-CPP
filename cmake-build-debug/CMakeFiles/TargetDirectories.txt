@@ -1,0 +1,3 @@
+C:/Users/kimjongun/CLionProjects/pizza-time/cmake-build-debug/CMakeFiles/pizza_time.dir
+C:/Users/kimjongun/CLionProjects/pizza-time/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/kimjongun/CLionProjects/pizza-time/cmake-build-debug/CMakeFiles/rebuild_cache.dir
