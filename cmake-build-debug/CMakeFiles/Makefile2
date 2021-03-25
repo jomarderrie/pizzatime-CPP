@@ -72,7 +72,7 @@ CMAKE_BINARY_DIR = C:\Users\kimjongun\CLionProjects\pizza-time\cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/pizza_time.dir/all
+all: CMakeFiles/toets.dir/all
 
 .PHONY : all
 
@@ -82,36 +82,36 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/pizza_time.dir/clean
+clean: CMakeFiles/toets.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/pizza_time.dir
+# Target rules for target CMakeFiles/toets.dir
 
 # All Build rule for target.
-CMakeFiles/pizza_time.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\pizza_time.dir\build.make CMakeFiles/pizza_time.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\pizza_time.dir\build.make CMakeFiles/pizza_time.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\kimjongun\CLionProjects\pizza-time\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target pizza_time"
-.PHONY : CMakeFiles/pizza_time.dir/all
+CMakeFiles/toets.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\toets.dir\build.make CMakeFiles/toets.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\toets.dir\build.make CMakeFiles/toets.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\kimjongun\CLionProjects\pizza-time\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6 "Built target toets"
+.PHONY : CMakeFiles/toets.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/pizza_time.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\kimjongun\CLionProjects\pizza-time\cmake-build-debug\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/pizza_time.dir/all
+CMakeFiles/toets.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\kimjongun\CLionProjects\pizza-time\cmake-build-debug\CMakeFiles 6
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/toets.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\kimjongun\CLionProjects\pizza-time\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/pizza_time.dir/rule
+.PHONY : CMakeFiles/toets.dir/rule
 
 # Convenience name for target.
-pizza_time: CMakeFiles/pizza_time.dir/rule
+toets: CMakeFiles/toets.dir/rule
 
-.PHONY : pizza_time
+.PHONY : toets
 
 # clean rule for target.
-CMakeFiles/pizza_time.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\pizza_time.dir\build.make CMakeFiles/pizza_time.dir/clean
-.PHONY : CMakeFiles/pizza_time.dir/clean
+CMakeFiles/toets.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\toets.dir\build.make CMakeFiles/toets.dir/clean
+.PHONY : CMakeFiles/toets.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

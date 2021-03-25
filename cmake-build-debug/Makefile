@@ -130,17 +130,125 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named pizza_time
+# Target rules for targets named toets
 
 # Build rule for target.
-pizza_time: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 pizza_time
-.PHONY : pizza_time
+toets: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 toets
+.PHONY : toets
 
 # fast build rule for target.
-pizza_time/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\pizza_time.dir\build.make CMakeFiles/pizza_time.dir/build
-.PHONY : pizza_time/fast
+toets/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\toets.dir\build.make CMakeFiles/toets.dir/build
+.PHONY : toets/fast
+
+Ingredient.obj: Ingredient.cpp.obj
+
+.PHONY : Ingredient.obj
+
+# target to build an object file
+Ingredient.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\toets.dir\build.make CMakeFiles/toets.dir/Ingredient.cpp.obj
+.PHONY : Ingredient.cpp.obj
+
+Ingredient.i: Ingredient.cpp.i
+
+.PHONY : Ingredient.i
+
+# target to preprocess a source file
+Ingredient.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\toets.dir\build.make CMakeFiles/toets.dir/Ingredient.cpp.i
+.PHONY : Ingredient.cpp.i
+
+Ingredient.s: Ingredient.cpp.s
+
+.PHONY : Ingredient.s
+
+# target to generate assembly for a file
+Ingredient.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\toets.dir\build.make CMakeFiles/toets.dir/Ingredient.cpp.s
+.PHONY : Ingredient.cpp.s
+
+Order.obj: Order.cpp.obj
+
+.PHONY : Order.obj
+
+# target to build an object file
+Order.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\toets.dir\build.make CMakeFiles/toets.dir/Order.cpp.obj
+.PHONY : Order.cpp.obj
+
+Order.i: Order.cpp.i
+
+.PHONY : Order.i
+
+# target to preprocess a source file
+Order.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\toets.dir\build.make CMakeFiles/toets.dir/Order.cpp.i
+.PHONY : Order.cpp.i
+
+Order.s: Order.cpp.s
+
+.PHONY : Order.s
+
+# target to generate assembly for a file
+Order.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\toets.dir\build.make CMakeFiles/toets.dir/Order.cpp.s
+.PHONY : Order.cpp.s
+
+Pizza.obj: Pizza.cpp.obj
+
+.PHONY : Pizza.obj
+
+# target to build an object file
+Pizza.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\toets.dir\build.make CMakeFiles/toets.dir/Pizza.cpp.obj
+.PHONY : Pizza.cpp.obj
+
+Pizza.i: Pizza.cpp.i
+
+.PHONY : Pizza.i
+
+# target to preprocess a source file
+Pizza.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\toets.dir\build.make CMakeFiles/toets.dir/Pizza.cpp.i
+.PHONY : Pizza.cpp.i
+
+Pizza.s: Pizza.cpp.s
+
+.PHONY : Pizza.s
+
+# target to generate assembly for a file
+Pizza.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\toets.dir\build.make CMakeFiles/toets.dir/Pizza.cpp.s
+.PHONY : Pizza.cpp.s
+
+SoftDrink.obj: SoftDrink.cpp.obj
+
+.PHONY : SoftDrink.obj
+
+# target to build an object file
+SoftDrink.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\toets.dir\build.make CMakeFiles/toets.dir/SoftDrink.cpp.obj
+.PHONY : SoftDrink.cpp.obj
+
+SoftDrink.i: SoftDrink.cpp.i
+
+.PHONY : SoftDrink.i
+
+# target to preprocess a source file
+SoftDrink.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\toets.dir\build.make CMakeFiles/toets.dir/SoftDrink.cpp.i
+.PHONY : SoftDrink.cpp.i
+
+SoftDrink.s: SoftDrink.cpp.s
+
+.PHONY : SoftDrink.s
+
+# target to generate assembly for a file
+SoftDrink.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\toets.dir\build.make CMakeFiles/toets.dir/SoftDrink.cpp.s
+.PHONY : SoftDrink.cpp.s
 
 main.obj: main.cpp.obj
 
@@ -148,7 +256,7 @@ main.obj: main.cpp.obj
 
 # target to build an object file
 main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\pizza_time.dir\build.make CMakeFiles/pizza_time.dir/main.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\toets.dir\build.make CMakeFiles/toets.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -157,7 +265,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\pizza_time.dir\build.make CMakeFiles/pizza_time.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\toets.dir\build.make CMakeFiles/toets.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -166,7 +274,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\pizza_time.dir\build.make CMakeFiles/pizza_time.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\toets.dir\build.make CMakeFiles/toets.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -177,7 +285,19 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... pizza_time
+	@echo ... toets
+	@echo ... Ingredient.obj
+	@echo ... Ingredient.i
+	@echo ... Ingredient.s
+	@echo ... Order.obj
+	@echo ... Order.i
+	@echo ... Order.s
+	@echo ... Pizza.obj
+	@echo ... Pizza.i
+	@echo ... Pizza.s
+	@echo ... SoftDrink.obj
+	@echo ... SoftDrink.i
+	@echo ... SoftDrink.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
